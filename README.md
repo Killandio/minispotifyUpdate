@@ -39,6 +39,14 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 ```
+
+Rodar:
+```bash
+./mvnw spring-boot:run
+# ou
+mvn spring-boot:run
+```
+
 A API sobe em `http://localhost:8080`.
 
 ## 🗂️ Estrutura
