@@ -5,7 +5,7 @@ CRUD de **Usuários**, **Perfis**, **Gêneros**, **Mídias** e **Playlists** (Sp
 ![Java](https://img.shields.io/badge/Java-21-blue)  
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0-brightgreen)  
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)  
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)  
+![Status](https://img.shields.io/badge/Status-Entrega%20Completa-yellow)  
 
 ---
 
