@@ -1,6 +1,13 @@
 # MiniSpotify
 
-API REST em **Spring Boot 3 + MySQL 8** para gerenciar **Usuários/Perfis (1:1)**, **Gêneros**, **Mídias (N:1)** e **Playlists (N:N)**.
+Este projeto foi desenvolvido como parte de um trabalho acadêmico, com o objetivo de **integrar Java (Spring Boot) com banco de dados MySQL** e aplicar os **quatro tipos de relacionamentos entre entidades** no JPA/Hibernate:
+
+- **1:1** → Usuário ↔ Perfil  
+- **1:N** → Gênero ↔ Mídias  
+- **N:1** → Mídia ↔ Gênero  
+- **N:N** → Playlist ↔ Mídias  
+
+O sistema simula uma versão simplificada do **Spotify**, permitindo cadastrar usuários, perfis, gêneros, mídias e playlists, além de gerenciar suas associações.
 
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![java](https://img.shields.io/badge/Java-21-informational)
@@ -32,7 +39,6 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 ```
-
 A API sobe em `http://localhost:8080`.
 
 ## 🗂️ Estrutura
